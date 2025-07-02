@@ -8,18 +8,16 @@ I made this for my own development uses, but you are free to use it as well. It 
 
 ## Getting Started
 
-Just run
+Just run:
 
 ```bash
-pnpm i
+npm i
 ```
 
-I'm sure other package managers would work as well, I haven't tested it though.
-
-Then you can just run
+Then you can just run:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
-to get started. It will compile your code and watch for changes, then use `tsx` to execute the index.ts file.
+to get started. It will compile your code and watch for changes, then use `tsx` to execute the `src/index.ts` file.
