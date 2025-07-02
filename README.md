@@ -1,0 +1,25 @@
+# TS Template
+
+A very basic typescript template with a very standard setup.
+
+## Overview
+
+I made this for my own development uses, but you are free to use it as well. It comes setup with some pretty basic tsconfig options - things like path resolution / aliasing (using the `"@/*"` alias), `dist/` output directory and `src/` root directory.
+
+## Getting Started
+
+Just run
+
+```bash
+pnpm i
+```
+
+I'm sure other package managers would work as well, I haven't tested it though.
+
+Then you can just run
+
+```bash
+pnpm dev
+```
+
+to get started. It will compile your code and watch for changes, then use `tsx` to execute the index.ts file.
